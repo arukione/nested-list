@@ -1,0 +1,10 @@
+README.md
+setup.py
+dict_list/__init__.py
+dict_list/delete_field.py
+dict_list/quick_sort.py
+nested_list/__init__.py
+nested_list.egg-info/PKG-INFO
+nested_list.egg-info/SOURCES.txt
+nested_list.egg-info/dependency_links.txt
+nested_list.egg-info/top_level.txt
