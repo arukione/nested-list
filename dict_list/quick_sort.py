@@ -1,4 +1,4 @@
-def dict_quick_sort(dict_list, field, order):
+def dict_list_sort(dict_list, field, order):
     if order == "ASC":
         quick_sort(dict_list, 0, len(dict_list) - 1, field, 1)
     if order == "DESC":

@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='nested-list',
-    version='1.0.0.dev1',
+    version='1.0.0.dev2',
     description='A nested list Tool which is pure Python.',
     url='https://github.com/arukione/nested-list',
     author='aruki',
