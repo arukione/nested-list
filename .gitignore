@@ -1,0 +1,7 @@
+
+.idea/
+build/
+dist/
+nested_list.egg-info/
+
+*/__pycache__

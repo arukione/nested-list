@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549c427d-51dd-47d5-88b1-f611769eca37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict_list/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict_list/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict_list/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict_list/quick_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/nested-list-1.0.0.dev1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +56,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579855275662" />
-    <state x="463" y="166" key="SettingsEditor" timestamp="1579855294441">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1580298550303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="166" key="SettingsEditor/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579855294441" />
+    <state x="740" y="278" key="FileChooserDialogImpl/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580298550303" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1580299790243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580299790243" />
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580298534773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580298534773" />
   </component>
 </project>
