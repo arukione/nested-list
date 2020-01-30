@@ -1,17 +1,17 @@
 # Nested-List
  **A nested list Tool which is pure Python.**
 
-### [中文介绍](#中文介绍)
+## [中文介绍](#中文介绍)
 
-[Introduction in Chinese](https://www.arukione.com/2020/01/30/%E5%9F%BA%E4%BA%8Eoperator%E6%9E%84%E5%BB%BA%E7%9A%84Nested-List/)
+[**Introduction in Chinese**](https://www.arukione.com/2020/01/30/%E5%9F%BA%E4%BA%8Eoperator%E6%9E%84%E5%BB%BA%E7%9A%84Nested-List/)
 
-### [Instruction](#Instruction)
+## [Instruction](#Instruction)
 
 Nested-List is a nested listoperation library. It can operate on list whose elements are not basic data types.
 
 Most functions are build with operator library.
 
-### [Installation](#Installation)
+## [Installation](#Installation)
 
 Nested-List can be install with pip:
 
@@ -21,7 +21,7 @@ or use pip to upgrade it:
 
 `$ pip install --upgrade Nested-List`
 
-### [Usage and Example](#Usage and Example)
+## [Usage and Example](#Usage and Example)
 
 Nested-List automatically check the type of elements in the passed List and calls the appropriate function to work.
 You must to ensuer that teh elements in the List are of the same type no matter what is done, which is the basis of Nested-List work.
@@ -42,7 +42,7 @@ def min(nl, *keys):
     ...
 ```
 
-**[sort](#sort)**
+### [sort](#sort)
 
 'nest_list.sort()' can according to the attribute of the element in the list to sort of list element.
 
@@ -96,7 +96,7 @@ You can pass in multiple paramenters to sort multiple times, as follows:
 ntls.sort(user_list, 'id', 'age',order="DESC")
 ```
 
-**[delete_items](#delete_items)**
+### [delete_items](#delete_items)
 
 `delete_items` can delete the element according to the attribute value of the element in the list. Similarly, the list element can also be an object. However, when using `delete_items`, there are two points to notice when passing in the parameter:
 
@@ -124,7 +124,7 @@ ntls.delete_items(user_list, None, ['age','name'],7,'four')
 ntls.delete_items(user_list, None, ['age','name'],[7,'four'])
 ```
 
-**[max and min](#max and min)**
+### [max and min](#max and min)
 
 The usage of 'nest_list.max' and 'nest_list.min' is as follows:
 
@@ -138,7 +138,7 @@ When there are multiple judgment attributes, multiple attribute names can be pas
 ntls.max(user_list, "age", "id")
 ```
 
-### [Acknowledgements](#Acknowledgements).
+## [Acknowledgements](#Acknowledgements).
 
 Thanks for 《Python Cookbook》3rd Edition author and translator, the initial development of this library is inseparable from
 their inspiration to me.
