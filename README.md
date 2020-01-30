@@ -144,3 +144,7 @@ Thanks for 《Python Cookbook》3rd Edition author and translator, the initial d
 their inspiration to me.
 
 **Python Cookbook 3rd Edition Documentation：**[https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html](https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
+
+1.0.x
+---
+2020/1/31   正式发布
