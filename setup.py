@@ -2,8 +2,8 @@ from setuptools import setup
 
 
 setup(
-    name='nested-list',
-    version='1.0.0.dev2',
+    name='Nested-List',
+    version='1.0.0',
     description='A nested list Tool which is pure Python.',
     url='https://github.com/arukione/nested-list',
     author='aruki',
@@ -19,10 +19,12 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    keywords='nested-list',
+    keywords='Nested-List',
     packages=[
         'nested_list',
-        'dict_list'
+        'dict_ls',
+        'array_ls',
+        'obj_ls'
     ]
 )
 

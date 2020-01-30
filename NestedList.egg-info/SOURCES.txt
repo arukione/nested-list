@@ -1,0 +1,10 @@
+README.md
+setup.py
+NestedList.egg-info/PKG-INFO
+NestedList.egg-info/SOURCES.txt
+NestedList.egg-info/dependency_links.txt
+NestedList.egg-info/top_level.txt
+array_ls/__init__.py
+dict_ls/__init__.py
+nested_list/__init__.py
+obj_ls/__init__.py
