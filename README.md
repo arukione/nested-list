@@ -21,7 +21,7 @@ or use pip to upgrade it:
 
 `$ pip install --upgrade Nested-List`
 
-## [Usage and Example](#Usage and Example)
+## [Usage and Example](#Usage%20and%20Example)
 
 Nested-List automatically check the type of elements in the passed List and calls the appropriate function to work.
 You must to ensuer that teh elements in the List are of the same type no matter what is done, which is the basis of Nested-List work.
@@ -124,7 +124,7 @@ ntls.delete_items(user_list, None, ['age','name'],7,'four')
 ntls.delete_items(user_list, None, ['age','name'],[7,'four'])
 ```
 
-### [max and min](#max and min)
+### [max and min](#max%20and%20min)
 
 The usage of 'nest_list.max' and 'nest_list.min' is as follows:
 
