@@ -138,7 +138,7 @@ When there are multiple judgment attributes, multiple attribute names can be pas
 ntls.max(user_list, "age", "id")
 ```
 
-## [Acknowledgements](#Acknowledgements).
+## [Acknowledgements](#Acknowledgements)
 
 Thanks for 《Python Cookbook》3rd Edition author and translator, the initial development of this library is inseparable from
 their inspiration to me.
