@@ -1,4 +1,4 @@
-# nested-list
+# Nested-List
  **A nested list Tool which is pure Python.**
 
 **This package can handle some nested lists in Python. You can use pip command to install this package:`pip3 install nested-list`.**
