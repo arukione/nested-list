@@ -5,7 +5,7 @@ It's built based on the operator.attrgetter.
 from operator import attrgetter
 
 
-def sort(ol, order=False, *keys):
+def sort(ol, *keys, order=False):
     ol.sort(key=attrgetter(*keys), reverse=order if order is True or order == "DESC" else False)
 
 
@@ -20,10 +20,9 @@ def delete_items(dl, compare, keys, values):
             dl.remove(d)
 
 
-def extremum(ol, mode, *keys):
-    if mode == "max":
-        return ol.max(key=attrgetter(*keys))
-    elif mode == "min":
-        return ol.min(key=attrgetter(*keys))
-    else:
-        raise Exception('Error mode value:{}'.format(mode))
+def max(dl, *keys):
+    return dl.max(key=attrgetter(*keys))
+
+
+def min(dl, *keys):
+    return dl.min(key=attrgetter(*keys))

@@ -34,35 +34,34 @@ import array_ls
 
 def type_of_elem(nl):
     """
-
     :param nl:
     :return:
     """
     ty = 1
     while ty > 0:
-        if isinstance(nl[ty], type(nl[ty - 1])):
+        if not isinstance(nl[ty], type(nl[ty - 1])):
             raise Exception('Error Type: The elements in the list are not the same type')
-    return type(nl)
+        ty += 1
+        if ty >= len(nl):
+            break
+    return type(nl[0])
 
 
-def sort(nl, order=False, *keys):
+def sort(nl, *keys, order=False,):
     """
     :param nl
     :param order: (DESC or True) and (ASC or False)
     """
     ty = type_of_elem(nl)
     if ty is list or ty is tuple:
-        array_ls.sort(nl, order, *keys)
+        array_ls.sort(nl, *keys, order=order)
     elif ty is dict:
-        dict_ls.sort(nl, order, *keys)
+        dict_ls.sort(nl, *keys, order=order)
     else:
-        obj_ls.sort(nl, order, *keys)
+        obj_ls.sort(nl, *keys, order=order)
 
 
-def delete_items(nl, compare, indexes, values):
-    """
-
-    """
+def delete_items(nl, indexes, values, compare=None):
     ty = type_of_elem(nl)
     if ty is list or ty is tuple:
         array_ls.delete_items(nl, compare, indexes, values)
@@ -72,16 +71,27 @@ def delete_items(nl, compare, indexes, values):
         obj_ls.delete_items(nl, compare, indexes, values)
 
 
-def extremum(nl, mode, *keys):
+def max(nl, *keys):
     """
-
     :param nl
-    :param mode: max or min
     """
     ty = type_of_elem(nl)
     if ty is list or ty is tuple:
-        return array_ls.extremum(nl, mode, *keys)
+        return array_ls.max(nl, *keys)
     elif ty is dict:
-        return dict_ls.extremum(nl, mode, *keys)
+        return dict_ls.max(nl, *keys)
     else:
-        return obj_ls.extremum(nl, mode, *keys)
+        return obj_ls.max(nl, *keys)
+
+
+def min(nl, *keys):
+    """
+    :param nl
+    """
+    ty = type_of_elem(nl)
+    if ty is list or ty is tuple:
+        return array_ls.min(nl, *keys)
+    elif ty is dict:
+        return dict_ls.min(nl, *keys)
+    else:
+        return obj_ls.min(nl, *keys)
