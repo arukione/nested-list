@@ -32,7 +32,7 @@ Every function must pass list whose will be operated when you use them.
 def sort(nl, *key, order=False):
     ...
 
-def delete_items(dl, keys, values, compare)=None:
+def delete_items(dl, keys, values, compare=None):
     ...
 
 def max(nl, *keys):
