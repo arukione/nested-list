@@ -61,14 +61,14 @@ def sort(nl, *keys, order=False,):
         obj_ls.sort(nl, *keys, order=order)
 
 
-def delete_items(nl, indexes, values, compare=None):
+def delete_items(nl, attributes, values, compare=None):
     ty = type_of_elem(nl)
     if ty is list or ty is tuple:
-        array_ls.delete_items(nl, compare, indexes, values)
+        array_ls.delete_items(nl, attributes, values, compare)
     elif ty is dict:
-        dict_ls.delete_items(nl, compare, indexes, values)
+        dict_ls.delete_items(nl, attributes, values, compare)
     else:
-        obj_ls.delete_items(nl, compare, indexes, values)
+        obj_ls.delete_items(nl, attributes, values, compare)
 
 
 def max(nl, *keys):

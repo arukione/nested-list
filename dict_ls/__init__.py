@@ -9,7 +9,7 @@ def sort(dl, *keys, order=False):
     dl.sort(key=itemgetter(*keys), reverse=order if order is True or order == "DESC" else False)
 
 
-def delete_items(dl, compare, keys, values):
+def delete_items(dl, keys, values, compare):
     get_values = itemgetter(*keys)
     for d in dl:
         if compare == 'L' and get_values(d) <= values:
